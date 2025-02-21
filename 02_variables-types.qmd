@@ -1,5 +1,115 @@
-# Variables et types {.backgroundTitre}
+# Variables et Types {.backgroundTitre}
 
-## Objectifs de la formation
+## Définitions
 
-## 
+-   Une **variable** est un symbole qui porte un nom et qui contient une valeur d’un type donné.
+
+Si la valeur de la variable n’est pas modifiable dans le temps, le terme de **constante** peut être utilisé.
+
+-   **Déclaration :** indiquer l’existence d’une variable et préciser son type
+
+`<nom_variable> : <nom_type>`
+
+-   **Initialisation :** donner une valeur initiale à une variable
+
+-   **Affectation/assignation** : donner une valeur à une variable à tout moment. La nouvelle valeur affectée à une variable écrase l’ancienne valeur.
+
+`<nom_variable> <- <valeur>`
+
+[Exercices 4 (manipulation d'une variable)]{.Terre_battue2}
+
+## Principaux types
+
+![](images/clipboard-types.png){fig-align="center"}
+
+Il est possible de ventiler la catégorie « **Numérique** » en 2 catégories distinctes :
+
+-   Les entiers
+
+-   Les réels
+
+La famille des « **dates** » peut également être considérée comme un type de base pour les variables.
+
+## Opérations possibles
+
+Pour les **numériques** : toutes les **opérations mathématiques** classiques
+
+-   **+** : addition
+
+-   **-** : soustraction
+
+-   **\*** : multiplication
+
+-   **/** : division
+
+Pour les **chaînes de caractères** :
+
+-   **+** : concaténation (assembler des caractères à la suite des autres)
+
+*Chaque langage de programmation décline ces types de base en plus ou moins de types de données propres. Le type choisi au moment de l’écriture du programme aura un impact sur l’allocation mémoire qui sera faite pour le stockage de la variable mais aussi sur la liste des fonctions utilisables.*
+
+[Exercices 5 (manipulation de variables de types différents)]{.Terre_battue2}
+
+## La valeur NULL 1/2
+
+Le mot clé **NULL** est utilisé pour indiquer que la valeur d’une variable est inconnue.
+
+[Remarque :]{.underline}
+
+-   Pour des numériques : NULL est différent de 0
+
+-   Pour des chaines de caractères : NULL est différent de «  »
+
+-   Pour des booléens : NULL est différent de FAUX
+
+Des opérations simples peuvent entraîner des erreurs (plantages) si des variables ne sont pas valorisées.
+
+[Exemple :]{.underline} addition de 2 numériques dont l’un a pour valeur NULL.
+
+## La valeur NULL 2/2
+
+Pour éviter ce type d’erreur :
+
+-   Initialiser le plus souvent possible les variables en début de programme
+
+-   Si le langage le permet, utiliser la notion de valeur par défaut lors de la déclaration des variables
+
+-   Si le langage le permet, utiliser une fonction permettant de remplacer toutes les valeurs NULL par une valeur passée en paramètre
+
+**Dans certains cas, une valeur vide peut être significative. Un mot clé spécifique au langage est utilisé.**
+
+**Dans ce cas, la notion de « non applicable » ou « valeur indéfinie » est souvent employée.**
+
+## Les tableaux
+
+Un **tableau** est une variable qui peut contenir plusieurs valeurs simultanément.
+
+Un tableau se présente comme une structure organisée sous forme de cellules ou cases qui peuvent être identifiées par un indice ou index.
+
+Selon les langages de programmation, certaines règles peuvent différer :
+
+-   Un tableau peut ne contenir que des variables du même type
+
+-   La valeur de l’indice débute à 0 ou à 1
+
+**Un tableau peut avoir 1 ou plusieurs dimensions.**
+
+-   1 dimension : vecteur ou liste
+
+-   Plusieurs dimensions : matrice ou tableau multi-dimensionnel
+
+## Les tableaux
+
+Les tableaux les plus fréquemment exploités au MASA sont des **tables de données**.
+
+![](images/clipboard-tab.png){fig-align="center"}
+
+Une **colonne** ne peut contenir que des valeurs de même type.
+
+`Colonne = variable = vecteur`
+
+Toutes les colonnes possèdent le même nombre de valeurs. Un nom peut être attribué à chaque colonne. Ce nom de colonne peut être utilisé pour accéder à la valeur de la cellule.
+
+Une **ligne** contient les valeurs observées pour chaque variable pour un élément donné. Ligne = observation = occurrence = élément
+
+Les **indices ou index** de lignes et de colonnes débutent à 1.

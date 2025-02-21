@@ -1,5 +1,96 @@
-# Tests {.backgroundTitre}
+# Les Tests {.backgroundTitre}
 
-## Objectifs de la formation
+## La condition - "SI"
 
-## 
++------------------------------+---------------------------------------------------------------------------------------------------------+
+| ![](images/clipboard-si.png) | -   La condition est une expression booléenne qui ne peut avoir que 2 valeurs possibles : VRAI ou FAUX. |
+|                              |                                                                                                         |
+|                              | -   Le bloc d’instructions SINON est facultatif.                                                        |
+|                              |                                                                                                         |
+|                              | -   Plusieurs conditions SI peuvent être imbriquées.                                                    |
++------------------------------+---------------------------------------------------------------------------------------------------------+
+
+[Analogie avec Excel :]{.underline}
+
+![](images/clipboard-si2.png){fig-align="center"}
+
+## La condition - "SI"
+
+La condition exprimée dans un bloc SI peut correspondre à toute expression pouvant être valorisée par **VRAI** ou **FAUX**.
+
+Cette expression peut être unitaire ou combinée par des opérateurs logiques (ET et OU). Les parenthèses sont utilisées pour encadrer les différentes conditions et gérer les priorités.
+
+[Exemples de conditions courantes :]{.underline}
+
+-   est égal à , différent de, supérieur, inférieur ….
+
+-   contient, commence par …
+
+-   est vide, existe …
+
+[Exemples de conditions combinées :]{.underline}
+
+-   Condition A ou Condition B
+
+-   (Condition A et Condition B) ou Condition C
+
+## Exemples
+
+![](images/clipboard-exemplesi.png){fig-align="center"}
+
+## Les opérateurs logiques
+
+La valeur d’une condition combinée dépend des valeurs de chaque condition unitaire utilisée, des opérateurs logiques et des priorités données par les parenthèses.
+
+## L'opérateur "OU" 
+
+« Pour que la condition combinée soit vraie, au moins une des 2 conditions doit être vraie ».
+
+![](images/clipboard-ou.png){fig-align="center"}
+
+## L'opérateur "ET"
+
+«  Pour que la condition combinée soit vraie, les 2 conditions doivent être vraies »
+
+![](images/clipboard-et.png){fig-align="center"}
+
+En l’absence de parenthèses, l’opérateur **ET** est prioritaire sur l’opérateur **OU**.
+
+## L'opérateur "OU EXCLUSIF"
+
+«  Pour que la condition combinée soit vraie, au moins une des 2 conditions mais pas les 2 doit être vraie ».
+
+![](images/clipboard-exclusif.png){fig-align="center"}
+
+[Illustration fonctionnelle :]{.underline}
+
+Cas d’un menu proposant une formule « Plat + entrée ou dessert » à 20€
+
+-   Si le client prend un plat et une entrée, il peut bénéficier de la formule
+
+-   Si le client prend un plat et un dessert, il peut bénéficier de la formule
+
+-   Si le client prend un plat, une entrée et un dessert, il ne peut pas bénéficier de la formule.
+
+[Exercices 6 (valorisation d'une condition)]{.Terre_battue2}
+
+## Les Tests - "SELON"
+
+**SELON** \< valeur de la variable testée \> **FAIRE**
+
+**CAS** \< liste 1 de valeurs \> : \< liste d’instructions \>\
+**CAS** \< liste 2 de valeurs \> : \< liste d’instructions \> ….
+
+**CAS** \< liste N de valeurs \> : \< liste d’instructions \>
+
+**AUTREMENT** : \< liste d’instructions \>
+
+**FIN SELON**
+
+La liste de valeurs peut contenir une seule valeur, une suite de valeurs séparées par des virgules et/ou un intervalle de valeurs.
+
+[Exercices 7 et 8 (utilisation du test SELON)]{.Terre_battue2}
+
+## Exemples
+
+![](images/clipboard-exemplesialors.png){fig-align="center"}

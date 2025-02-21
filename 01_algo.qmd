@@ -48,7 +48,7 @@
 
 -   Initialisation des variables et liste des instructions
 
-![](images/clipboard-699837349.png){fig-align="center"}
+![](images/clipboard-algo.png){fig-align="center"}
 
 ## Plusieurs variantes correctes du bloc d’instructions existent.
 
