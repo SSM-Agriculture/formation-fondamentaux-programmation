@@ -1,0 +1,43 @@
+# Algorithmique et Programmation {.backgroundTitre}
+
+## Etapes de développement d'un logiciel ou programme
+
+[**ANALYSER**]{.Terre_battue2} **Comprendre les besoins du client.**
+
+-   Dossier d'analyse
+
+-   Cahier des charges
+
+[**CONCEVOIR**]{.Terre_battue2} **Identifier tout ce qui va être utile pour répondre au besoin du client.** =\> [Algorithmique]{.Bourgeon2}
+
+-   Documents de spécifications détaillées
+
+[**REALISER**]{.Terre_battue2} **Implémenter la solution choisie pour répondre au besoin du client.** =\> [Programmation]{.Bourgeon2}
+
+-   Programmes prêts à exécuter
+
+## Définitions
+
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Algorithme                                                             | Programme                                                                                   |
++========================================================================+=============================================================================================+
+| -   Représentatif d’une logique                                        | -   Traduction d’un algorithme dans un langage de programmation spécifique (lignes de code) |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| -   Indépendant de tout langage de programmation                       | -   Exécutable par le système                                                               |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| -    Inexploitable en l’état par un ordinateur                         |                                                                                             |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| -   Compréhensible par tous                                            |                                                                                             |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| -   Suite d’instructions ou d’étapes                                   |                                                                                             |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| -   Plusieurs représentations possibles : schémas, texte (pseudo-code) |                                                                                             |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
+## Analogie avec la littérature dans le cadre d’un livre traduit en plusieurs langues  
+
+-   L’écrivain réalise l’algorithme (imagination du récit, choix des personnages, découpage en chapitres….) et écrit le programme dans une langue donnée
+
+-   Les traducteurs transposent l’œuvre de l’écrivain dans d’autres langues en essayant d’être le plus fidèles possibles à l’histoire et aux émotions qu’il a voulu transmettre.
+
+##  Structure d'un algorithme en pseudo-code

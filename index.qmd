@@ -1,0 +1,81 @@
+---
+title: "Formation au Ministère de l'Agriculture"
+subtitle: "Les fondamentaux de la programmation"
+date: today
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS"
+description: |
+  Support de formation les fondamentaux de la programmation
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+toc: true
+toc-title: Sommaire
+toc-depth: 1
+toc-float: true
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+  markdown: 
+    wrap: 72
+---
+
+## Avant-propos
+
+<br>
+
+Ce diaporama de formation a été rédigé dans le but d'être le support
+visuel des formations dispensées au
+[MASA](https://agreste.agriculture.gouv.fr/).
+
+Cette formation s'adresse à des agents personnes souhaitant découvrir
+l'écriture de syntaxe avec R sans toutefois avoir déjà écrit des
+programmes dans d'autres langages.\
+
+## Avant-propos
+
+La formation est donnée en distancielle sur une durée **de 1 jours**.
+
+::: callout-note
+## Objectifs par cette formation
+
+Ce support permet de :
+
+-   Connaître les principes fondamentaux de la programmation
+
+-   Avoir les pré-requis nécessaires à la formation « Initiation à la
+    programmation R »
+
+Pour information, les thêmes abordés sont:
+
+-   Algorithmes et programmes
+
+-   Les variables : nommage et typage
+
+-   Les différentes instructions : affectation, lecture, écriture ….
+
+-   Les tests de conditionnalité
+
+-   Les fonctions : utilité, arguments, résultats
+
+Ils sont orientés pour être utile aux agents du SSM Agriculture et se
+concentrent sur une utilisation de R via
+[RStudio](https://posit.co/download/rstudio-desktop/) qui est mise à
+disposition des agents sur la plateforme interne Cerise basée sur
+RStudio Workbench.
+:::
+
+{{< include 01_algo.qmd >}}
+
+{{< include 02_variables-types.qmd >}}
+
+{{< include 03_tests.qmd >}}
+
+{{< include 04_boucles.qmd >}}
+
+{{< include 05_fonctions.qmd >}}
