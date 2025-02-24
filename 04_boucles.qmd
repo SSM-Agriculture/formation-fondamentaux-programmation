@@ -26,15 +26,15 @@ Il est obligatoire de s’assurer que la condition de bouclage deviendra FAUSSE 
 
 Boucle permettant d’afficher le libellé des 12 mois de l’année.
 
-``` R
+``` r
 VARIABLES :
-	indice_boucle : ENTIER
-	libelle_mois : CHAINE de CARACTERES
+    indice_boucle : ENTIER
+    libelle_mois : CHAINE de CARACTERES
 DEBUT
   POUR indice_boucle ALLANT DE 1 A 12
   FAIRE
-	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
-	  Afficher libelle_mois
+      libelle_mois <- donne_libelle_du_mois(indice_boucle)
+      Afficher libelle_mois
   FIN POUR
 FIN
 ```
@@ -53,15 +53,15 @@ Boucle permettant d’afficher le libellé des 12 mois de l’année.
 
 ```         
 VARIABLES :
-	indice_boucle : ENTIER
-	libelle_mois : CHAINE de CARACTERES
+    indice_boucle : ENTIER
+    libelle_mois : CHAINE de CARACTERES
 DEBUT
   Indice_boucle <- 1
   TANT QUE indice_boucle <= 12
   FAIRE
-	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
-	  Afficher libelle_mois
-	  indice_boucle <- indice_boucle + 1
+      libelle_mois <- donne_libelle_du_mois(indice_boucle)
+      Afficher libelle_mois
+      indice_boucle <- indice_boucle + 1
   FIN TANT QUE
 FIN
 ```
@@ -80,17 +80,17 @@ FIN
 
 Boucle permettant d’afficher le libellé des 12 mois de l’année.
 
-``` R
+``` r
 VARIABLES :
-	indice_boucle : ENTIER
-	libelle_mois : CHAINE de CARACTERES
+    indice_boucle : ENTIER
+    libelle_mois : CHAINE de CARACTERES
 DEBUT
   Indice_boucle <- 1
   REPETER
-	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
-	  Afficher libelle_mois
-	  indice_boucle <- indice_boucle + 1
-	  JUSQU’À indice_boucle = 13
+      libelle_mois <- donne_libelle_du_mois(indice_boucle)
+      Afficher libelle_mois
+      indice_boucle <- indice_boucle + 1
+      JUSQU’À indice_boucle = 13
   FIN REPETER
 FIN
 ```
