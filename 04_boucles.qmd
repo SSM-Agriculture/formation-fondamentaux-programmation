@@ -1,5 +1,96 @@
-# Boucles {.backgroundTitre}
+# Les Boucles {.backgroundTitre}
 
-## Objectifs de la formation
+## Définition
 
-## 
+Une **boucle** permet de répéter plusieurs fois un bloc d’instructions.
+
+3 types de boucles coexistent :
+
+-   Boucle « **POUR** » : elle est utilisée lorsque le nombre de répétitions est connu à l’avance
+
+-   Boucle « **TANT QUE** » : elle est utilisée lorsque le nombre de répétitions n’est pas connu à l’avance et permet de répéter l’exécution du bloc d’instructions tant que la condition de bouclage est respectée
+
+-   Boucle « **REPETER** » ou « **FAIRE TANT QUE** » : variante de la boucle « TANT QUE » où le bloc d’instructions est exécuté avant le test de la bouclage.
+
+Il est obligatoire de s’assurer que la condition de bouclage deviendra FAUSSE à un moment donné pour provoquer l’arrêt de l’exécution du bloc d’instructions. Dans le cas contraire, le programme ne s’arrêtera jamais (boucle infinie).
+
+## Les boucles POUR
+
+**POUR** `<variable>` **ALLANT DE** `<debut>` **A** `<fin>`
+
+**FAIRE** \< liste d’instructions \>
+
+**FIN POUR**
+
+[Illustration :]{.underline}
+
+Boucle permettant d’afficher le libellé des 12 mois de l’année.
+
+``` R
+VARIABLES :
+	indice_boucle : ENTIER
+	libelle_mois : CHAINE de CARACTERES
+DEBUT
+  POUR indice_boucle ALLANT DE 1 A 12
+  FAIRE
+	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
+	  Afficher libelle_mois
+  FIN POUR
+FIN
+```
+
+## Les boucles TANT QUE
+
+**TANT QUE** <condition> **= VRAI**
+
+**FAIRE** \< liste d’instructions \>
+
+**FIN TANT QUE**
+
+[Illustration :]{.underline}
+
+Boucle permettant d’afficher le libellé des 12 mois de l’année.
+
+```         
+VARIABLES :
+	indice_boucle : ENTIER
+	libelle_mois : CHAINE de CARACTERES
+DEBUT
+  Indice_boucle <- 1
+  TANT QUE indice_boucle <= 12
+  FAIRE
+	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
+	  Afficher libelle_mois
+	  indice_boucle <- indice_boucle + 1
+  FIN TANT QUE
+FIN
+```
+
+## Les boucles REPETER
+
+**REPETER**
+
+\< liste d’instructions \>
+
+**JUSQU’À** <condition> **= VRAI**
+
+**FIN REPETER**
+
+[Illustration :]{.underline}
+
+Boucle permettant d’afficher le libellé des 12 mois de l’année.
+
+``` R
+VARIABLES :
+	indice_boucle : ENTIER
+	libelle_mois : CHAINE de CARACTERES
+DEBUT
+  Indice_boucle <- 1
+  REPETER
+	  libelle_mois <- donne_libelle_du_mois(indice_boucle)
+	  Afficher libelle_mois
+	  indice_boucle <- indice_boucle + 1
+	  JUSQU’À indice_boucle = 13
+  FIN REPETER
+FIN
+```

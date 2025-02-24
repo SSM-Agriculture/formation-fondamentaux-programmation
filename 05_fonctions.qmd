@@ -1,5 +1,52 @@
-# Fonctions {.backgroundTitre}
+# Les Fonctions {.backgroundTitre}
 
-## Objectifs de la formation
+## Définition 1/2
 
-## 
+Une **fonction** correspond à un regroupement d’instructions dans le but de réaliser une action précise et qui a vocation à être réutilisé.
+
+Chaque langage de programmation propose un pool de fonctions de base plus ou moins riche qui peuvent être regroupées ou non dans des librairies.
+
+Tout développeur peut utiliser des fonctions déjà écrites ou créer des fonctions personnalisées pour des traitements répondant à ses besoins.
+
+[Une fonction :]{.underline}
+
+-   Possède un nom
+
+-   Peut nécessiter des données en entrée (paramètres)
+
+-   Peut fournir une valeur en retour (paramètre de sortie ou résultat)
+
+## Définition 2/2
+
+Toutes ces informations sont mentionnées dans la 1er ligne du script qui se nomme la **signature**.
+
+Plusieurs fonctions portant le même nom peuvent coexister. Dans la majorité des cas, elles possèdent des signatures différentes.
+
+[Exemple :]{.underline}
+
+La fonction **isNull(**`<variable>`**)** qui retourne un booléen Cette fonction a été implémentée dans de nombreux langages pour des paramètres d’entrée de plusieurs types (entier, chaines de caractères ….)
+
+## Syntaxe
+
+**FONCTION** `<type du résultat> <nom de la fonction> (<type du param1>` \<nom du param1, …**)**
+
+\< liste d’instructions \>
+
+**RETOURNER** `<valeur du résultat>`\
+**FIN**
+
+Une fonction est dite **récursive** lorsqu’elle s’appelle elle-même. Dans ce cas, son code doit forcément comprendre une condition d’arrêt.
+
+L’utilisation de fonctions permet souvent de décomposer un traitement complexe en plusieurs traitements plus simples. La compréhension et la maintenance des programmes sont alors facilitées.
+
+Toute fonction doit être **documentée** pour permettre sa réutilisation ultérieure. En général, l’espace de développement donne la possibilité d’accéder à la description de la fonction et éventuellement à des exemples d’utilisation. Les sites web de communautés de développeurs sont aussi très riches en informations.
+
+## Usage
+
+Avant de se lancer dans l’écriture d’une fonction, il faut au préalable rechercher si elle n’existe pas déjà.
+
+![](images/clipboard-fonction1.png){fig-align="center"}
+
+![](images/clipboard-fonction2.png){fig-align="center"}
+
+[Exercice 9-10-11 (tableaux, boucles, tests et fonctions)]{.Terre_battue2}
