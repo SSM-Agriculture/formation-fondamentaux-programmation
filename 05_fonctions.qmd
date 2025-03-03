@@ -24,7 +24,7 @@ Plusieurs fonctions portant le même nom peuvent coexister. Dans la majorité de
 
 [Exemple :]{.underline}
 
-La fonction **isNull(**`<variable>`**)** qui retourne un booléen Cette fonction a été implémentée dans de nombreux langages pour des paramètres d’entrée de plusieurs types (entier, chaines de caractères ….)
+La fonction **isNull(**`<variable>`**)** qui retourne un booléen. Cette fonction a été implémentée dans de nombreux langages pour des paramètres d’entrée de plusieurs types (entier, chaines de caractères ….)
 
 ## Syntaxe
 
