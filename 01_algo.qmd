@@ -18,21 +18,22 @@
 
 ## Définitions
 
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| Algorithme                                                   | Programme                                                                                   |
-+==============================================================+=============================================================================================+
-| -   Représentatif d’une logique                              | -   Traduction d’un algorithme dans un langage de programmation spécifique (lignes de code) |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| -   Indépendant de tout langage de programmation             | -   Exécutable par le système                                                               |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| -   Inexploitable en l’état par un ordinateur                |                                                                                             |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| -   Compréhensible par tous                                  |                                                                                             |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| -   Suite d’instructions ou d’étapes                         |                                                                                             |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| -   Plusieurs représentations : schémas, texte (pseudo-code) |                                                                                             |
-+--------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+::: columns
+::: {.column width="50%"}
+- Représentatif d’une logique 
+- Indépendant de tout langage de programmation 
+- Inexploitable en l’état par un ordinateur
+- Compréhensible par tous
+- Suite d’instructions ou d’étapes
+- Plusieurs représentations : schémas, texte (pseudo-code)
+:::
+
+::: {.column width="50%"}
+- Traduction d’un algorithme dans un langage de programmation spécifique (lignes de code)
+- Exécutable par le système
+:::
+:::
+
 
 ## Analogie avec la littérature dans le cadre d’un livre traduit en plusieurs langues
 
