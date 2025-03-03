@@ -40,6 +40,9 @@ Cette expression peut être unitaire ou combinée par des opérateurs logiques (
 
 ## Les opérateurs logiques
 
+<br>
+<br>
+
 La valeur d’une condition combinée dépend des valeurs de chaque condition unitaire utilisée, des opérateurs logiques et des priorités données par les parenthèses.
 
 ## L'opérateur "OU" 
