@@ -50,23 +50,23 @@ Pour les **chaînes de caractères** :
 
 [Exercices 5 (manipulation de variables de types différents)]{.Terre_battue2}
 
-## La valeur NULL 1/2
+## La valeur `NULL` (1/2)
 
-Le mot clé **NULL** est utilisé pour indiquer que la valeur d’une variable est inconnue.
+Le mot clé `NULL` est utilisé pour indiquer que la valeur d’une variable est inconnue.
 
 [Remarque :]{.underline}
 
--   Pour des numériques : NULL est différent de 0
+-   Pour des numériques : `NULL` est différent de 0
 
--   Pour des chaines de caractères : NULL est différent de «  »
+-   Pour des chaines de caractères : `NULL` est différent de «  »
 
--   Pour des booléens : NULL est différent de FAUX
+-   Pour des booléens : `NULL` est différent de FAUX
 
 Des opérations simples peuvent entraîner des erreurs (plantages) si des variables ne sont pas valorisées.
 
-[Exemple :]{.underline} addition de 2 numériques dont l’un a pour valeur NULL.
+[Exemple :]{.underline} addition de 2 numériques dont l’un a pour valeur `NULL`.
 
-## La valeur NULL 2/2
+## La valeur `NULL` (2/2)
 
 Pour éviter ce type d’erreur :
 
