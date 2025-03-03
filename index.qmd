@@ -33,13 +33,13 @@ Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
 [MASA](https://agreste.agriculture.gouv.fr/).
 
-Cette formation s'adresse à des agents personnes souhaitant découvrir
+Cette formation s'adresse à des agents souhaitant découvrir
 l'écriture de syntaxe avec R sans toutefois avoir déjà écrit des
 programmes dans d'autres langages.\
 
 ## Avant-propos
 
-La formation est donnée en distancielle sur une durée **de 1 jours**.
+La formation est donnée en distancielle sur une durée **d'une journée**.
 
 ::: callout-note
 ## Objectifs par cette formation
