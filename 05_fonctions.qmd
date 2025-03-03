@@ -1,6 +1,6 @@
 # Les Fonctions {.backgroundTitre}
 
-## Définition 1/2
+## Définition (1/2)
 
 Une **fonction** correspond à un regroupement d’instructions dans le but de réaliser une action précise et qui a vocation à être réutilisé.
 
@@ -16,7 +16,7 @@ Tout développeur peut utiliser des fonctions déjà écrites ou créer des fonc
 
 -   Peut fournir une valeur en retour (paramètre de sortie ou résultat)
 
-## Définition 2/2
+## Définition (2/2)
 
 Toutes ces informations sont mentionnées dans la 1er ligne du script qui se nomme la **signature**.
 
