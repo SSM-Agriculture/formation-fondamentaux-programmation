@@ -63,6 +63,19 @@ Remarques :
 
 ## Trier des données
 
+**Objectif : classer les données d’un tableau selon les valeurs d’une ou plusieurs variables/colonnes.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom des variables/colonnes utilisées pour le classement  
+- ordre de tri  
+  
+Remarques : 
+- si plusieurs variables/colonnes sont impliquées dans un tri, l’ordre de tri peut être différent pour chacune d’elles  
+- tous les langages ne traitent pas de la même manière les valeurs vides.  
+
+
 ## Enrichir les données par ajout d’une variable/colonne
 
 ## Enrichir les données par jointure/appariement
