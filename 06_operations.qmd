@@ -107,6 +107,19 @@ Remarques :
 
 ## Agréger les données
 
+**Objectif : regrouper des lignes d’un tableau selon une ou plusieurs variables/colonnes afin de calculer des valeurs agrégées pour chacun des groupes.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom des variables/colonnes utilisées pour le regroupement  
+- type d’agrégat souhaité (comptage, somme, moyenne, pourcentage, minimum, maximum …)  
+  
+Exemples :  
+- à partir d’un tableau de parcelles (département, commune, référence cadastrale, superficie), calculer la superficie moyenne d’une parcelle pour chaque commune  
+- à partir d’un tableau de personnes (nom, prénom, date de naissance), calculer le nombre de personnes selon leur tranche d’âge
+
+
 ## Gérer des doublons
 
 ## Concaténer des tables
