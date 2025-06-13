@@ -49,4 +49,3 @@ Avant de se lancer dans l’écriture d’une fonction, il faut au préalable re
 
 ![](images/clipboard-fonction2.png){fig-align="center"}
 
-[Exercice 9-10-11 (tableaux, boucles, tests et fonctions)]{.Terre_battue2}
