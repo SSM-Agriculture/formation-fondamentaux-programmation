@@ -160,3 +160,4 @@ Exemple issu de la formation R du MASA :
 
 ![](images/clipboard-pivot.png){fig-align="center"}
 
+[Exercice 9 et 10 (manipulation des tableaux)]{.Terre_battue2}
