@@ -152,7 +152,7 @@ Remarque :
 
 ## Transposer une table
 
-** Objectif : modifier la structure d’un tableau de façon à présenter :**  
+**Objectif : modifier la structure d’un tableau de façon à présenter :**  
 - **en lignes des données qui étaient présentes en variables/colonnes**   
 - **en variables/colonnes des données qui étaient présentes en lignes**  
 
