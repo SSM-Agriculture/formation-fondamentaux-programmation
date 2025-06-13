@@ -20,6 +20,19 @@ Paramètres possibles :
 
 ## Sélectionner des variables/colonnes
 
+**Objectif : modifier les noms des variables/colonnes d’un tableau afin de les rendre plus compréhensibles, clairs, homogènes ou adaptés à l’analyse.**  
+
+  
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom ou numéro d’ordre de la variable/colonne à modifier  
+- nouveau nom de la variable/colonne  
+  
+Remarques :  
+- certains environnements de traitement des données ou langages peuvent être restrictifs pour les intitulés de variables/colonnes (présence de caractères spéciaux ou d’accents, nombre de caractères, mots-clés interdits …)  
+- certaines structures adoptent des règles de nommage communes pour faciliter la compréhension et la maintenance de leurs projets ou traitements. Si elles existent, elles doivent être respectées.  
+
+
 ## Renommer des variables/colonnes
 
 ## Filtrer des données
