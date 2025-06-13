@@ -151,3 +151,12 @@ Remarque :
 
 
 ## Transposer une table
+
+** Objectif : modifier la structure d’un tableau de façon à présenter :**  
+- **en lignes des données qui étaient présentes en variables/colonnes**   
+- **en variables/colonnes des données qui étaient présentes en lignes**  
+
+Exemple issu de la formation R du MASA :  
+
+![](images/clipboard-pivot.png){fig-align="center"}
+
