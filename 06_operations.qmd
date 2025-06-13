@@ -3,6 +3,21 @@
 
 ## Importer des données à partir d’un fichier
 
+**Objectif : charger le contenu d’un fichier de données dans un tableau manipulable dans l’environnement de traitement des données.**  
+
+Exemples :  
+- charger dans CERISE le contenu d’un fichier CSV  
+- ouvrir un fichier Excel  
+  
+
+Paramètres possibles :  
+- emplacement et nom du fichier  
+- encodage du fichier (UTF8, ASCII…)  
+- présence d’entêtes avec le nom des variables/colonnes  
+- type de certaines variables/colonnes  
+- nom de la variable de type tableau initialisée avec les données chargées
+
+
 ## Sélectionner des variables/colonnes
 
 ## Renommer des variables/colonnes
