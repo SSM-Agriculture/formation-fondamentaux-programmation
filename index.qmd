@@ -79,3 +79,5 @@ RStudio Workbench.
 {{< include 04_boucles.qmd >}}
 
 {{< include 05_fonctions.qmd >}}
+
+{{< include 06_operations.qmd >}}

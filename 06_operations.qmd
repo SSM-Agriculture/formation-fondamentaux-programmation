@@ -1,0 +1,24 @@
+# Principales opérations sur les données et/ou tableaux {.backgroundTitre}
+
+
+## Importer des données à partir d’un fichier
+
+## Sélectionner des variables/colonnes
+
+## Renommer des variables/colonnes
+
+## Filtrer des données
+
+## Trier des données
+
+## Enrichir les données par ajout d’une variable/colonne
+
+## Enrichir les données par jointure/appariement
+
+## Agréger les données
+
+## Gérer des doublons
+
+## Concaténer des tables
+
+## Transposer une table
