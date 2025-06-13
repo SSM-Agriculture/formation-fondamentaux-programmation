@@ -93,6 +93,18 @@ Remarque :
 
 ## Enrichir les données par jointure/appariement
 
+**Objectif : compléter les informations d’un tableau en l’associant à un autre par rapprochement des valeurs présentes dans des variables/colonnes communes.**
+  
+
+Paramètres nécessaires :  
+- nom des 2 tableaux concernés  
+- nom des variables/colonnes utilisées pour le rapprochement  
+- type de jointure souhaitée  
+
+Remarques :  
+- les types de jointure possibles définissent le devenir des lignes du tableau qui sont présentes dans un tableau mais pas dans l’autre.  
+
+
 ## Agréger les données
 
 ## Gérer des doublons
