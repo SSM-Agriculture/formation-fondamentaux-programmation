@@ -122,6 +122,19 @@ Exemples :
 
 ## Gérer des doublons
 
+**Objectif : identifier les lignes répétées dans un tableau de données et choisir le traitement adéquat pour l’analyse.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom des variables/colonnes utilisées pour la recherche des doublons  
+  
+Remarque :  
+- plusieurs lignes d’un tableau peuvent être qualifiées de doublons même si la totalité des variables/données ne sont pas identiques  
+  
+Ex : dans une liste de personnes (n°INSEE, nom, prénom, lieu de naissance), plusieurs lignes référençant le même numéro INSEE peuvent être considérées comme doublons car cette variable/colonne est identifiante (1 numéro est attribué à un seul individu) et unique pour une personne (un individu ne possède qu’un seul numéro).
+
+
 ## Concaténer des tables
 
 ## Transposer une table
