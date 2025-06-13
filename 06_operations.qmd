@@ -49,6 +49,18 @@ Remarques :
 
 ## Filtrer des données
 
+**Objectif : conserver uniquement certaines lignes d’un tableau de données en fonction d’un critère défini afin de se concentrer sur les informations utiles ou pertinentes.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- critère de filtre reposant sur une ou plusieurs variables/colonnes du tableau  
+  
+Remarques :  
+- l’opération de filtrage des données n’influence pas le nombre de variables/colonnes du tableau  
+- la réduction du volume des données induite par cette opération améliore la performance des traitements  
+
+
 ## Trier des données
 
 ## Enrichir les données par ajout d’une variable/colonne
