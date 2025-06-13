@@ -35,7 +35,9 @@
 :::
 
 
-## Analogie avec la littérature dans le cadre d’un livre traduit en plusieurs langues
+## Analogie
+
+Analogie avec la littérature dans le cadre d’un livre traduit en plusieurs langues
 
 -   L’écrivain réalise l’algorithme (imagination du récit, choix des personnages, découpage en chapitres….) et écrit le programme dans une langue donnée
 
@@ -51,7 +53,9 @@
 
 ![](images/clipboard-algo.png){fig-align="center"}
 
-## Plusieurs variantes correctes du bloc d’instructions existent.
+## Structure d'un algorithme en pseudo-code
+
+Plusieurs variantes correctes du bloc d’instructions existent.
 
 -   Le choix des instructions tient compte de plusieurs facteurs :
 
