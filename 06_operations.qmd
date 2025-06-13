@@ -137,4 +137,17 @@ Ex : dans une liste de personnes (n°INSEE, nom, prénom, lieu de naissance), pl
 
 ## Concaténer des tables
 
+**Objectif : assembler plusieurs tableaux de données**  
+- **par ajout de lignes (si les tableaux possèdent les même variables/colonnes)**  
+- **par ajout de colonnes sans rapprochement des données  (si les tableaux possèdent les mêmes objets en ligne)**  
+  
+
+Paramètres nécessaires :  
+- nom des tableaux concernés  
+- type de concaténation (ajout de lignes ou ajout de colonnes)  
+  
+Remarque :  
+- la concaténation de tables par ajout de colonnes ne doit pas être confondue avec un appariement. Les données des tableaux ne font pas l’objet de rapprochement selon des variables/colonnes communes.
+
+
 ## Transposer une table
