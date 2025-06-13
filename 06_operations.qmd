@@ -20,6 +20,21 @@ Paramètres possibles :
 
 ## Sélectionner des variables/colonnes
 
+**Objectif : conserver uniquement certaines variables/colonnes d’un tableau de données afin de se concentrer sur les informations utiles ou pertinentes.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom ou numéro d’ordre des variables/colonnes sélectionnées  
+  
+Remarques :  
+- l’opération de sélection de variables/colonnes n’influence pas le nombre de lignes du tableau  
+- la réduction du volume des données induite par cette opération améliore la performance des traitements   
+- certains langages, dont R, permettent de préciser les colonnes à enlever au lieu de celles à conserver (« sélectionner toutes les colonnes sauf»)
+
+
+## Renommer des variables/colonnes
+
 **Objectif : modifier les noms des variables/colonnes d’un tableau afin de les rendre plus compréhensibles, clairs, homogènes ou adaptés à l’analyse.**  
 
   
@@ -31,9 +46,6 @@ Paramètres nécessaires :
 Remarques :  
 - certains environnements de traitement des données ou langages peuvent être restrictifs pour les intitulés de variables/colonnes (présence de caractères spéciaux ou d’accents, nombre de caractères, mots-clés interdits …)  
 - certaines structures adoptent des règles de nommage communes pour faciliter la compréhension et la maintenance de leurs projets ou traitements. Si elles existent, elles doivent être respectées.  
-
-
-## Renommer des variables/colonnes
 
 ## Filtrer des données
 
