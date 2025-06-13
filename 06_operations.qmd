@@ -78,6 +78,19 @@ Remarques :
 
 ## Enrichir les données par ajout d’une variable/colonne
 
+**Objectif : compléter les informations d’un tableau en ajoutant une variable/colonne nécessaire à l’analyse.**  
+  
+
+Paramètres nécessaires :  
+- nom du tableau concerné  
+- nom de la nouvelle variable/colonne  
+- type de la nouvelle variable/colonne  
+- règle d’initialisation des valeurs de la nouvelle variable/colonne  
+  
+Remarque :  
+- les règles d’initialisation des valeurs peuvent être simples (une seule valeur pour toutes les lignes) ou plus complexes (calcul à partir des données de plusieurs variables/colonnes, valeurs différentes selon des conditions définies …)
+
+
 ## Enrichir les données par jointure/appariement
 
 ## Agréger les données
