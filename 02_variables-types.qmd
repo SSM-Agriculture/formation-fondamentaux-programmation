@@ -100,7 +100,7 @@ Selon les langages de programmation, certaines règles peuvent différer :
 
 ## Les tableaux
 
-Les tableaux les plus fréquemment exploités au MASA sont des **tables de données**.
+Les tableaux les plus fréquemment exploités au SSM Agriculture sont des **tables de données**.
 
 ![](images/clipboard-tab.png){fig-align="center"}
 

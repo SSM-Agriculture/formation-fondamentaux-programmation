@@ -4,7 +4,7 @@
 
 # Formation Les fondamentaux de la programmation
 
-Support de présentation pour la formation dispensée au [MASA](https://agriculture.gouv.fr/) ou à distanciel.
+Support de présentation pour la formation dispensée au [SSM Agriculture](https://agriculture.gouv.fr/) ou à distanciel.
 
 > Pour un affichage optimisé de la présentation il est conseillé d'utiliser un navigateur basé sur Chromium (par exemple les navigateurs Edge, Chrome, Brave...).
 

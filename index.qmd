@@ -31,7 +31,7 @@ editor:
 
 Ce diaporama de formation a été rédigé dans le but d'être le support
 visuel des formations dispensées au
-[MASA](https://agreste.agriculture.gouv.fr/).
+[SSM Agriculture](https://agreste.agriculture.gouv.fr/).
 
 Cette formation s'adresse à des agents souhaitant découvrir
 l'écriture de syntaxe avec R sans toutefois avoir déjà écrit des

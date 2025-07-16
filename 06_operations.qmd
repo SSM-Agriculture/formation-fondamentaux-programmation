@@ -156,7 +156,7 @@ Remarque :
 - **en lignes des données qui étaient présentes en variables/colonnes**   
 - **en variables/colonnes des données qui étaient présentes en lignes**  
 
-Exemple issu de la formation R du MASA :  
+Exemple issu de la formation R du SSM Agriculture :  
 
 ![](images/clipboard-pivot.png){fig-align="center"}
 
