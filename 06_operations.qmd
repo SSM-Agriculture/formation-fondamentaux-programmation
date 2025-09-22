@@ -193,6 +193,7 @@ Remarque :
 ## Concaténer des tables
 
 ![](images/concatenation_schema.png){fig-align="center"}
+
 ## Concaténer des tables
 
 ![](images/concatenation2_schema.png){fig-align="center"}
