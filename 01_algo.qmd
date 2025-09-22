@@ -20,7 +20,7 @@
 
 ::: columns
 ::: {.column width="50%"}
-       ALGORITHME
+                     **ALGORITHME**
 - Représentatif d’une logique 
 - Indépendant de tout langage de programmation 
 - Inexploitable en l’état par un ordinateur
@@ -30,7 +30,7 @@
 :::
 
 ::: {.column width="50%"}
-      PROGRAMME
+                     **PROGRAMME**
 - Traduction d’un algorithme dans un langage de programmation spécifique (lignes de code)
 - Exécutable par le système
 :::
