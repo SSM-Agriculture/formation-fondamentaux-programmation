@@ -70,6 +70,7 @@ Remarques :
 ## Filtrer des données
 
 ![](images/filtre_schema.png){fig-align="center"}
+
 ## Filtrer des données
 
 ![](images/filtre2_schema.png){fig-align="center"}
@@ -91,6 +92,7 @@ Remarques :
 ## Trier des données
 
 ![](images/tri_schema.png){fig-align="center"}
+
 ## Trier des données
 
 ![](images/tri2_schema.png){fig-align="center"}
@@ -129,9 +131,11 @@ Remarques :
 ## Enrichir les données par jointure/appariement
 
 ![](images/jointure_schema.png){fig-align="center"}
+
 ## Enrichir les données par jointure/appariement
 
 ![](images/operations_schema.png){fig-align="center"}
+
 ## Enrichir les données par jointure/appariement
 
 ![](images/jointure2_schema.png){fig-align="center"}
