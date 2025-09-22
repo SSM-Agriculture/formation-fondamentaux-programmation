@@ -32,6 +32,9 @@ Remarques :
 - la réduction du volume des données induite par cette opération améliore la performance des traitements   
 - certains langages, dont R, permettent de préciser les colonnes à enlever au lieu de celles à conserver (« sélectionner toutes les colonnes sauf»)
 
+## Sélectionner des variables/colonnes
+
+![](images/selection_schema.png){fig-align="center"}
 
 ## Renommer des variables/colonnes
 
@@ -47,6 +50,10 @@ Remarques :
 - certains environnements de traitement des données ou langages peuvent être restrictifs pour les intitulés de variables/colonnes (présence de caractères spéciaux ou d’accents, nombre de caractères, mots-clés interdits …)  
 - certaines structures adoptent des règles de nommage communes pour faciliter la compréhension et la maintenance de leurs projets ou traitements. Si elles existent, elles doivent être respectées.  
 
+## Renommer des variables/colonnes
+
+![](images/renommage_schema.png){fig-align="center"}
+
 ## Filtrer des données
 
 **Objectif : conserver uniquement certaines lignes d’un tableau de données en fonction d’un critère défini afin de se concentrer sur les informations utiles ou pertinentes.**  
@@ -60,6 +67,12 @@ Remarques :
 - l’opération de filtrage des données n’influence pas le nombre de variables/colonnes du tableau  
 - la réduction du volume des données induite par cette opération améliore la performance des traitements  
 
+## Filtrer des données
+
+![](images/filtre_schema.png){fig-align="center"}
+## Filtrer des données
+
+![](images/filtre2_schema.png){fig-align="center"}
 
 ## Trier des données
 
@@ -75,6 +88,12 @@ Remarques :
 - si plusieurs variables/colonnes sont impliquées dans un tri, l’ordre de tri peut être différent pour chacune d’elles  
 - tous les langages ne traitent pas de la même manière les valeurs vides.  
 
+## Trier des données
+
+![](images/tri_schema.png){fig-align="center"}
+## Trier des données
+
+![](images/tri2_schema.png){fig-align="center"}
 
 ## Enrichir les données par ajout d’une variable/colonne
 
@@ -90,6 +109,9 @@ Paramètres nécessaires :
 Remarque :  
 - les règles d’initialisation des valeurs peuvent être simples (une seule valeur pour toutes les lignes) ou plus complexes (calcul à partir des données de plusieurs variables/colonnes, valeurs différentes selon des conditions définies …)
 
+## Enrichir les données par ajout d’une variable/colonne
+
+![](images/enrichissement_schema.png){fig-align="center"}
 
 ## Enrichir les données par jointure/appariement
 
@@ -104,6 +126,15 @@ Paramètres nécessaires :
 Remarques :  
 - les types de jointure possibles définissent le devenir des lignes du tableau qui sont présentes dans un tableau mais pas dans l’autre.  
 
+## Enrichir les données par jointure/appariement
+
+![](images/jointure_schema.png){fig-align="center"}
+## Enrichir les données par jointure/appariement
+
+![](images/operations_schema.png){fig-align="center"}
+## Enrichir les données par jointure/appariement
+
+![](images/jointure2_schema.png){fig-align="center"}
 
 ## Agréger les données
 
@@ -119,6 +150,9 @@ Exemples :
 - à partir d’un tableau de parcelles (département, commune, référence cadastrale, superficie), calculer la superficie moyenne d’une parcelle pour chaque commune  
 - à partir d’un tableau de personnes (nom, prénom, date de naissance), calculer le nombre de personnes selon leur tranche d’âge
 
+## Agréger des données
+
+![](images/agregation_schema.png){fig-align="center"}
 
 ## Gérer des doublons
 
@@ -134,6 +168,9 @@ Remarque :
   
 Ex : dans une liste de personnes (n°INSEE, nom, prénom, lieu de naissance), plusieurs lignes référençant le même numéro INSEE peuvent être considérées comme doublons car cette variable/colonne est identifiante (1 numéro est attribué à un seul individu) et unique pour une personne (un individu ne possède qu’un seul numéro).
 
+## Gérer des doublons
+
+![](images/doublons_schema.png){fig-align="center"}
 
 ## Concaténer des tables
 
@@ -149,6 +186,12 @@ Paramètres nécessaires :
 Remarque :  
 - la concaténation de tables par ajout de colonnes ne doit pas être confondue avec un appariement. Les données des tableaux ne font pas l’objet de rapprochement selon des variables/colonnes communes.
 
+## Concaténer des tables
+
+![](images/concatenation_schema.png){fig-align="center"}
+## Concaténer des tables
+
+![](images/concatenation2_schema.png){fig-align="center"}
 
 ## Transposer une table
 
